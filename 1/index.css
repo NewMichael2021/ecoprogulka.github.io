@@ -649,7 +649,7 @@ input:focus, textarea:focus, select:focus
 {
    position: absolute;
    left: 0px;
-   top: 69px;
+   top: 0px;
    width: 320px;
    height: 69px;
    z-index: 1;
@@ -914,8 +914,8 @@ body
 }
 #wb_LayoutGrid1
 {
-   visibility: visible;
-   display: table;
+   visibility: hidden;
+   display: none;
    font-size: 13px;
    font-family: Arial;
    font-weight: 0;
@@ -952,7 +952,7 @@ body
 #wb_ResponsiveMenu1
 {
    left: 0px;
-   top: 69px;
+   top: 0px;
    width: 320px;
    height: 69px;
    visibility: visible;
