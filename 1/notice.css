@@ -1,0 +1,291 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/2фон.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: url('images/50з.png');
+   background-repeat: repeat;
+   background-position: left top;
+}
+#Button1
+{
+   box-sizing: border-box;
+   line-height: 41px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url('images/Домой2.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-attachment: scroll;
+   background-size: contain;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button2
+{
+   box-sizing: border-box;
+   line-height: 41px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url('images/О-прогулке3.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-attachment: scroll;
+   background-size: contain;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button3
+{
+   box-sizing: border-box;
+   line-height: 41px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url('images/На-заметку2.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-attachment: scroll;
+   background-size: contain;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button4
+{
+   box-sizing: border-box;
+   line-height: 41px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url('images/Контакты2.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-attachment: scroll;
+   background-size: contain;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 0px;
+   width: 320px;
+   height: 56px;
+   z-index: 4;
+}
+#Layer1_Container
+{
+   width: 320px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Button1
+{
+   position: absolute;
+   left: 0px;
+   top: 6px;
+   width: 52px;
+   height: 45px;
+   z-index: 0;
+}
+#Button2
+{
+   position: absolute;
+   left: 59px;
+   top: 6px;
+   width: 84px;
+   height: 45px;
+   z-index: 1;
+}
+#Button3
+{
+   position: absolute;
+   left: 150px;
+   top: 6px;
+   width: 87px;
+   height: 45px;
+   z-index: 2;
+}
+#Button4
+{
+   position: absolute;
+   left: 244px;
+   top: 6px;
+   width: 76px;
+   height: 45px;
+   z-index: 3;
+}
+@media only screen and (max-width: 969px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/2фон.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#Layer1
+{
+   left: 0px;
+   top: 0px;
+   width: 320px;
+   height: 56px;
+   visibility: visible;
+   display: inline;
+}
+#Layer1_Container
+{
+   width: 320px;
+}
+#Button1
+{
+   left: 0px;
+   top: 6px;
+   width: 52px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button1
+{
+   line-height: 41px;
+}
+#Button2
+{
+   left: 59px;
+   top: 6px;
+   width: 84px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button2
+{
+   line-height: 41px;
+}
+#Button3
+{
+   left: 150px;
+   top: 6px;
+   width: 87px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button3
+{
+   line-height: 41px;
+}
+#Button4
+{
+   left: 244px;
+   top: 6px;
+   width: 76px;
+   height: 45px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#Button4
+{
+   line-height: 41px;
+}
+}
