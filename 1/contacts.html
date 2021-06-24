@@ -7,6 +7,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="экопрогулка2.css" rel="stylesheet">
 <link href="contacts.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
 </head>
 <body>
 <div id="container">
@@ -16,26 +27,49 @@
 <div class="row">
 <div class="col-1">
 <div id="wb_Image1">
-<a href="./index.html"><img src="images/1Домой.png" id="Image1" alt=""></a>
+<a href="./index.html"><img src="images/0-home-m.png" id="Image1" alt=""></a>
 </div>
 </div>
 <div class="col-2">
 <div id="wb_Image2">
-<a href="./stroll.html"><img src="images/1О-прогулке.png" id="Image2" alt=""></a>
+<a href="./stroll.html"><img src="images/0-stroll-m.png" id="Image2" alt=""></a>
 </div>
 </div>
 <div class="col-3">
 <div id="wb_Image3">
-<a href="./notice.html"><img src="images/1На-заметку.png" id="Image3" alt=""></a>
+<a href="./notice.html"><img src="images/0-notice-m.png" id="Image3" alt=""></a>
 </div>
 </div>
 <div class="col-4">
 <div id="wb_Image4">
-<a href="./contacts.html"><img src="images/2Контакты.png" id="Image4" alt=""></a>
+<a href="./contacts.html"><img src="images/1-contacts-m.png" id="Image4" alt=""></a>
 </div>
 </div>
 </div>
 </div>
 </div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image5">
+<img src="images/contacts-m.png" id="Image5" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image6">
+<a href="https://t.me/you_teleport" target="_blank"><img src="images/contacts-1-m.png" id="Image6" alt=""></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="preloader"></div>
 </body>
 </html>

@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/О прогулке.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -42,6 +42,15 @@ a:hover
 input:focus, textarea:focus, select:focus
 {
    outline: none;
+}
+#preloader
+{
+   background: #00FF7F url("images/wheel.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
 }
 #wb_LayoutGrid1
 {
@@ -807,6 +816,95 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 600px;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 5px 3px 0px 3px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 > .row
+{
+   margin-right: -3px;
+   margin-left: -3px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 3px;
+   padding-left: 3px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Image5
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #wb_Image1
 {
    display: inline-block;
@@ -835,6 +933,13 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 4;
 }
+#wb_Image5
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 5;
+}
 #wb_OverlayMenu1
 {
    display: inline-block;
@@ -849,194 +954,9 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 320px;
    height: 69px;
-   z-index: 5;
+   z-index: 6;
 }
-@media only screen and (min-width: 768px) and (max-width: 969px)
-{
-div#container
-{
-   width: 768px;
-}
-body
-{
-   background-color: #FFFFFF;
-   background-image: url('images/О прогулке.jpg');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_OverlayMenu1
-{
-   width: 62px;
-   height: 62px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#OverlayMenu1
-{
-   background-color: #424242;
-   background-image: none;
-   border: 0px solid #424242;
-   width: 62px;
-   height: 62px;
-}
-#OverlayMenu1:hover
-{
-   background-color: #CCCCCC;
-   background-image: none;
-   border-color: #424242;
-}
-#OverlayMenu1 .line
-{
-   background: #00FF00;
-}
-#OverlayMenu1:hover .line
-{
-   background: #424242;
-}
-#OverlayMenu1 .line:first-child
-{
-   margin-top: 15px;
-}
-#OverlayMenu1-overlay ul
-{
-   font-size: 19px;
-   text-align: center;
-}
-}
-@media only screen and (min-width: 480px) and (max-width: 767px)
-{
-div#container
-{
-   width: 480px;
-}
-body
-{
-   background-color: #FFFFFF;
-   background-image: url('images/О прогулке.jpg');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-#wb_LayoutGrid1
-{
-   visibility: hidden;
-   display: none;
-}
-#wb_LayoutGrid1
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid1 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_OverlayMenu1
-{
-   width: 62px;
-   height: 62px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#OverlayMenu1
-{
-   background-color: #424242;
-   background-image: none;
-   border: 0px solid #424242;
-   width: 62px;
-   height: 62px;
-}
-#OverlayMenu1:hover
-{
-   background-color: #CCCCCC;
-   background-image: none;
-   border-color: #424242;
-}
-#OverlayMenu1 .line
-{
-   background: #00FF00;
-}
-#OverlayMenu1:hover .line
-{
-   background: #424242;
-}
-#OverlayMenu1 .line:first-child
-{
-   margin-top: 15px;
-}
-#OverlayMenu1-overlay ul
-{
-   font-size: 19px;
-   text-align: center;
-}
-#wb_ResponsiveMenu1
-{
-   left: 0px;
-   top: 0px;
-   width: 320px;
-   height: 69px;
-   visibility: hidden;
-   display: none;
-   margin: 0;
-   text-align: left;
-}
-}
-@media only screen and (max-width: 479px)
+@media only screen and (max-width: 969px)
 {
 div#container
 {
@@ -1045,7 +965,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/Без имени-1.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -1137,6 +1057,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid2
 {
@@ -1214,6 +1139,46 @@ body
    padding: 0;
 }
 #wb_Image4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 5px 3px 0px 3px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -3px;
+   margin-left: -3px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 3px;
+   padding-left: 3px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Image5
 {
    width: 100%;
    visibility: visible;

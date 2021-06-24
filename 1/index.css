@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/2фон.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -42,6 +42,15 @@ a:hover
 input:focus, textarea:focus, select:focus
 {
    outline: none;
+}
+#preloader
+{
+   background: #00FF7F url("images/wheel.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
 }
 #wb_LayoutGrid4
 {
@@ -459,6 +468,22 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
+#MediaPlayer1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_MediaPlayer1
+{
+   position: absolute;
+   left: 3px;
+   top: 274px;
+   width: 115px;
+   height: 58px;
+   z-index: 6;
+}
 #wb_Image1
 {
    display: inline-block;
@@ -501,115 +526,6 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 3;
 }
-@media only screen and (min-width: 480px)
-{
-div#container
-{
-   width: 480px;
-}
-body
-{
-   background-color: #FFFFFF;
-   background-image: url('images/2фон.jpg');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-#wb_LayoutGrid4
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid4
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid4
-{
-   padding: 0px 15px 0px 15px;
-}
-#LayoutGrid4 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid4 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid4 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid4 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Image5
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image7
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_Image8
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-}
 @media only screen and (max-width: 479px)
 {
 div#container
@@ -619,7 +535,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/Без имени-1.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -722,6 +638,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid1
 {
@@ -762,6 +683,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid2
 {
@@ -794,6 +720,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid3
 {
@@ -829,5 +760,15 @@ body
    display: block;
    margin: 0;
    padding: 0;
+}
+#wb_MediaPlayer1
+{
+   left: 3px;
+   top: 274px;
+   width: 115px;
+   height: 58px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
 }
 }

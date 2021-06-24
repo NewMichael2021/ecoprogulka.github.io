@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 480px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/2фон.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -42,6 +42,15 @@ a:hover
 input:focus, textarea:focus, select:focus
 {
    outline: none;
+}
+#preloader
+{
+   background: #00FF7F url("images/wheel.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
 }
 #wb_Image1
 {
@@ -334,7 +343,7 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 4;
 }
-@media only screen and (max-width: 969px)
+@media only screen and (max-width: 479px)
 {
 div#container
 {
@@ -343,7 +352,7 @@ div#container
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/Без имени-1.jpg');
+   background-image: url('images/fon-m.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -385,6 +394,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid1
 {
@@ -441,6 +455,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid2
 {
@@ -449,7 +468,7 @@ body
 }
 #LayoutGrid2
 {
-   padding: 4px 3px 0px 3px;
+   padding: 5px 3px 0px 3px;
 }
 #LayoutGrid2 .row
 {
