@@ -481,7 +481,7 @@ input:focus, textarea:focus, select:focus
    display: block;
    position: relative;
    margin: 0;
-   height: 99px;
+   height: 50px;
    vertical-align: top;
 }
 #wb_MediaPlayer1
@@ -732,7 +732,7 @@ body
 }
 #LayoutGrid4
 {
-   padding: 5px 3px 0px 3px;
+   padding: 0px 3px 0px 3px;
 }
 #LayoutGrid4 .row
 {
