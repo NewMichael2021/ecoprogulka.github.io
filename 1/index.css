@@ -470,6 +470,7 @@ input:focus, textarea:focus, select:focus
 }
 #MediaPlayer1
 {
+   position: absolute;
    left: 0;
    top: 0;
    width: 100%;
@@ -477,11 +478,16 @@ input:focus, textarea:focus, select:focus
 }
 #wb_MediaPlayer1
 {
-   position: absolute;
-   left: 3px;
-   top: 274px;
-   width: 115px;
+   display: block;
+   position: relative;
+   margin: 0;
    height: 58px;
+   vertical-align: top;
+}
+#wb_MediaPlayer1
+{
+   display: inline-block;
+   width: 100%;
    z-index: 6;
 }
 #wb_Image1
@@ -763,12 +769,9 @@ body
 }
 #wb_MediaPlayer1
 {
-   left: 3px;
-   top: 274px;
-   width: 115px;
-   height: 58px;
+   width: 100%;
    visibility: visible;
-   display: inline;
+   display: block;
    margin: 0;
 }
 }
