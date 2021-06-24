@@ -1,6 +1,6 @@
 div#container
 {
-   width: 970px;
+   width: 600px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -532,7 +532,7 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 5;
 }
-@media only screen and (max-width: 969px)
+@media only screen and (max-width: 599px)
 {
 div#container
 {
