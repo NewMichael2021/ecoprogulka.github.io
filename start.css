@@ -52,12 +52,107 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    z-index: 99999;
 }
-#wb_Image1
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 600px;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Image5
 {
    margin: 0;
    vertical-align: top;
 }
-#Image1
+#Image5
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -70,12 +165,12 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Image2
+#wb_Image6
 {
    margin: 0;
    vertical-align: top;
 }
-#Image2
+#Image6
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -88,12 +183,12 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Image3
+#wb_Image7
 {
    margin: 0;
    vertical-align: top;
 }
-#Image3
+#Image7
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -106,12 +201,12 @@ input:focus, textarea:focus, select:focus
    margin-right: auto;
    vertical-align: top;
 }
-#wb_Image4
+#wb_Image8
 {
    margin: 0;
    vertical-align: top;
 }
-#Image4
+#Image8
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -144,25 +239,25 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid1
 {
    box-sizing: border-box;
-   padding: 0px 3px 0px 3px;
+   padding: 0px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid1 > .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: -15px;
+   margin-left: -15px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+#LayoutGrid1 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 15px;
+   padding-left: 15px;
    position: relative;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+#LayoutGrid1 > .row > .col-1
 {
    float: left;
 }
@@ -171,31 +266,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 25%;
+   width: 100%;
    text-align: left;
 }
 #LayoutGrid1:before,
@@ -213,11 +284,29 @@ input:focus, textarea:focus, select:focus
 }
 @media (max-width: 0px)
 {
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+#LayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
 }
 #wb_LayoutGrid2
 {
@@ -239,22 +328,22 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid2
 {
    box-sizing: border-box;
-   padding: 5px 3px 0px 3px;
+   padding: 0;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid2 > .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: 0;
+   margin-left: 0;
 }
 #LayoutGrid2 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
 }
 #LayoutGrid2 > .row > .col-1
@@ -310,22 +399,22 @@ input:focus, textarea:focus, select:focus
 #LayoutGrid3
 {
    box-sizing: border-box;
-   padding: 5px 3px 0px 3px;
+   padding: 0px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid3 > .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: -15px;
+   margin-left: -15px;
 }
 #LayoutGrid3 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
    min-height: 1px;
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 15px;
+   padding-left: 15px;
    position: relative;
 }
 #LayoutGrid3 > .row > .col-1
@@ -361,12 +450,12 @@ input:focus, textarea:focus, select:focus
    width: 100% !important;
 }
 }
-#wb_Image5
+#wb_Image2
 {
    margin: 0;
    vertical-align: top;
 }
-#Image5
+#Image2
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -378,95 +467,6 @@ input:focus, textarea:focus, select:focus
    margin-left: auto;
    margin-right: auto;
    vertical-align: top;
-}
-#wb_Image6
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image6
-{
-   border: 0px solid #000000;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 800px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
-#wb_LayoutGrid4
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 600px;
-}
-#LayoutGrid4
-{
-   box-sizing: border-box;
-   padding: 5px 3px 0px 3px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid4 > .row
-{
-   margin-right: -3px;
-   margin-left: -3px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0px;
-   min-height: 1px;
-   padding-right: 3px;
-   padding-left: 3px;
-   position: relative;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   width: 100%;
-   text-align: left;
-}
-#LayoutGrid4:before,
-#LayoutGrid4:after,
-#LayoutGrid4 .row:before,
-#LayoutGrid4 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid4:after,
-#LayoutGrid4 .row:after
-{
-   clear: both;
-}
-@media (max-width: 0px)
-{
-#LayoutGrid4 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
 }
 #MediaPlayer1
 {
@@ -481,7 +481,7 @@ input:focus, textarea:focus, select:focus
    display: block;
    position: relative;
    margin: 0;
-   height: 50px;
+   height: 58px;
    vertical-align: top;
 }
 #wb_MediaPlayer1
@@ -495,42 +495,42 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 0;
+   z-index: 4;
 }
 #wb_Image2
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 1;
-}
-#wb_Image3
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 2;
-}
-#wb_Image4
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 3;
+   z-index: 5;
 }
 #wb_Image5
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 4;
+   z-index: 0;
 }
 #wb_Image6
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 5;
+   z-index: 1;
+}
+#wb_Image7
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 2;
+}
+#wb_Image8
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 3;
 }
 @media only screen and (max-width: 599px)
 {
@@ -547,7 +547,68 @@ body
    background-repeat: no-repeat;
    background-size: cover;
 }
-#wb_Image1
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4
+{
+   padding: 5px 3px 0px 3px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -3px;
+   margin-left: -3px;
+}
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4
+{
+   padding-right: 3px;
+   padding-left: 3px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-2
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-3
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid4 > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Image5
 {
    width: 100%;
    visibility: visible;
@@ -555,7 +616,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image2
+#wb_Image6
 {
    width: 100%;
    visibility: visible;
@@ -563,7 +624,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image3
+#wb_Image7
 {
    width: 100%;
    visibility: visible;
@@ -571,7 +632,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image4
+#wb_Image8
 {
    width: 100%;
    visibility: visible;
@@ -596,49 +657,33 @@ body
 }
 #LayoutGrid1
 {
-   padding: 5px 3px 0px 3px;
+   padding: 5px 5px 0px 5px;
 }
 #LayoutGrid1 .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
-#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+#LayoutGrid1 > .row > .col-1
 {
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 5px;
+   padding-left: 5px;
 }
 #LayoutGrid1 > .row > .col-1
 {
    display: block;
-   width: 25%;
+   width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
 }
-#LayoutGrid1 > .row > .col-2
+#wb_Image1
 {
+   width: 100%;
+   visibility: visible;
    display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid1 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
+   margin: 0;
+   padding: 0;
 }
 #wb_LayoutGrid2
 {
@@ -657,17 +702,17 @@ body
 }
 #LayoutGrid2
 {
-   padding: 5px 3px 0px 3px;
+   padding: 0;
 }
 #LayoutGrid2 .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: -0px;
+   margin-left: -0px;
 }
 #LayoutGrid2 > .row > .col-1
 {
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 0px;
+   padding-left: 0px;
 }
 #LayoutGrid2 > .row > .col-1
 {
@@ -694,17 +739,17 @@ body
 }
 #LayoutGrid3
 {
-   padding: 5px 3px 0px 3px;
+   padding: 0px 15px 0px 15px;
 }
 #LayoutGrid3 .row
 {
-   margin-right: -3px;
-   margin-left: -3px;
+   margin-right: -15px;
+   margin-left: -15px;
 }
 #LayoutGrid3 > .row > .col-1
 {
-   padding-right: 3px;
-   padding-left: 3px;
+   padding-right: 15px;
+   padding-left: 15px;
 }
 #LayoutGrid3 > .row > .col-1
 {
@@ -714,58 +759,13 @@ body
    border-radius: 0px;
    text-align: left;
 }
-#wb_Image5
+#wb_Image2
 {
    width: 100%;
    visibility: visible;
    display: block;
    margin: 0;
    padding: 0;
-}
-#wb_Image6
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid4
-{
-   visibility: visible;
-   display: table;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: 0;
-   font-style: normal;
-   text-decoration: none;
-}
-#wb_LayoutGrid4
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid4
-{
-   padding: 0px 3px 0px 3px;
-}
-#LayoutGrid4 .row
-{
-   margin-right: -3px;
-   margin-left: -3px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   padding-right: 3px;
-   padding-left: 3px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
 }
 #wb_MediaPlayer1
 {

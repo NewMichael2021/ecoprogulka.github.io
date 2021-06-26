@@ -1047,6 +1047,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 320px;
    height: 69px;
+   visibility: hidden;
    z-index: 7;
 }
 @media only screen and (max-width: 599px)
@@ -1243,6 +1244,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid3
 {
@@ -1290,6 +1296,11 @@ body
 {
    visibility: visible;
    display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: 0;
+   font-style: normal;
+   text-decoration: none;
 }
 #wb_LayoutGrid4
 {
