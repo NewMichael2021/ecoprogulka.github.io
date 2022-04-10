@@ -34,9 +34,8 @@
 
   .u-section-1 .u-video-1 {
     height: 298px;
+    width: 302px;
+    margin-right: 0;
     margin-bottom: 60px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 }
